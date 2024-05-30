@@ -10,7 +10,6 @@ Whilst designed as Tableau Prep challenges, they are an excellent way to improve
 **TASK**
 
 2023 Week 1 - This week we have had a report with a number of transactions that have not just our transactions but other banks' too. Can you help clean up the data?
-
     - Split the Transaction Code to extract the letters at the start of the transaction code. These identify the bank who processes the transaction.
     - Rename the values in the Online or In-person field, Online of the 1 values and In-Person for the 2 values. - Change the date to be the day of the week (help)
     - Different levels of detail are required in the outputs. You will need to sum up the values of the transactions in three ways (help):
@@ -21,10 +20,9 @@ Whilst designed as Tableau Prep challenges, they are an excellent way to improve
 **SQL/Snowflake Techniques Used**
 
 I used Snowflake to write and execute SQL queries.
-
-1. Splitting strings with SPLIT_PART
-2. Case Statements
-3. Converting strings to dates
+    1. Splitting strings with SPLIT_PART
+    2. Case Statements
+    3. Converting strings to dates
 
 ## Solution
 
