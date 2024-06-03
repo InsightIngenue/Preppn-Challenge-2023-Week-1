@@ -1,10 +1,10 @@
 # Preppn challenge 2023 Week 1
 
-Solving Tableau Prep challenge 2023 Week 1 using SQL/Snowflake
+Solving Tableau Prep Challenge 2023 Week 1 using SQL/Snowflake
 
-## About the excercise
+## About the exercise
 
-Created by Carl Allchin, these excercises are a great way of learning anf developing data preparation skills.
+Carl Allchin created these exercises as a great way of learning and developing data preparation skills.
 Whilst designed as Tableau Prep challenges, they are an excellent way to improve SQL skills. Find them [here](https://preppindata.blogspot.com/p/the-challenge-index.html).
 
 **TASK**
@@ -43,10 +43,10 @@ Aggregating the values and grouping by on new column gives me the 1st Output
 
 <img src ="Images/Output1.png" width = '700'>
 
-### 2. Total Values by Bank, Day of the Week and Type of Transaction (Online or In-Person)
+### 2. Total Values by Bank, Day of the Week, and Type of Transaction (Online or In-Person)
 
-Using Case Statments, I converted the values in the Online or In person column to the desired values.
-Date was in string format, used DATE function to change it in date and wrapping it in DAY function gave me the name of the day.
+Using Case Statements, I converted the values in the Online or In-person column to the desired values.
+The date was in string format, I used the DATE function to change it to the correct date format, and wrapping it in the DAY function gave me the name of the day.
 
 ```
     SELECT SPLIT_PART (TRANSACTION_CODE,'-', 0) as Bank,
@@ -81,4 +81,4 @@ It was straightforward as I already had the Bank column.
 
 <img src ="Images/Output3.png" width = '700'>
 
-With this, I had all the three input required.
+With this, I had all the three inputs required.
